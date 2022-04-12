@@ -9,5 +9,4 @@ Renew certificates manually with
 1. docker-compose run --rm certbot renew
 2. docker exec -it birdproxy nginx -s reload
 
-Install crontab-based renewal with
-1. `utils/setup_cert_renewal.sh`
+Install crontab-based renewal with `utils/setup_cert_renewal.sh`
