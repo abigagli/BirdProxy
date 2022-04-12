@@ -1,2 +1,3 @@
-*.crt
-*.key
+certbot
+!certbot/conf/.gitkeep
+!certbot/www/.gitkeep
