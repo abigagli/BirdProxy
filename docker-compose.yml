@@ -12,6 +12,7 @@ services:
     image: "birdproxy"
     ports:
       - 80:80
+#TODO: Remove forwarding of 2333 when all devices have updated param_urlbase
       - 2333:80
       - 443:443
     networks:
