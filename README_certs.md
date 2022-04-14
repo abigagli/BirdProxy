@@ -1,7 +1,8 @@
 Obtain letsencrypt certificate:
 1. Start the reverse proxy disabling listening on 443 and ssl certificates/keys in default.conf
 2. execute `docker-compose run --rm certbot certonly`
-3. Change ownership of `certbot/**` from root to whatever user the nginx docker runs from
+#### The following step shouldn't be required
+#### 2b. Change ownership of `certbot/**` from root to whatever user the nginx docker runs from
 3. Re-enable https/ssl in reverse proxy configuration and restart it
 
 
